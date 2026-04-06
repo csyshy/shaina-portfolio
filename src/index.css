@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'Subtitle';
+  src: url('./assets/fonts/subtitle-regular.otf') format('opentype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Subtitle';
+  src: url('./assets/fonts/subtitle-bold.otf') format('opentype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Subtitle';
+  src: url('./assets/fonts/subtitle-italic.otf') format('opentype');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Title';
+  src: url('./assets/fonts/title-regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Title';
+  src: url('./assets/fonts/title-bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-link {
+  position: relative;
+  background-image: linear-gradient(#ff751f, #ff751f);
+  background-size: 50% 3px;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  transition: background-size 0.3s ease;
+}
+
+.nav-link:hover {
+  background-size: 100% 3px;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
